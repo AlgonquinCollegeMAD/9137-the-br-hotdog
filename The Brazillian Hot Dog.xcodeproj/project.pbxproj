@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F8254E2AC5E470002AAE99 /* The_Brazillian_Hot_DogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8254D2AC5E470002AAE99 /* The_Brazillian_Hot_DogApp.swift */; };
+		10F825502AC5E470002AAE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8254F2AC5E470002AAE99 /* ContentView.swift */; };
+		10F825522AC5E470002AAE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F825512AC5E470002AAE99 /* Assets.xcassets */; };
+		10F825562AC5E470002AAE99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F825552AC5E470002AAE99 /* Preview Assets.xcassets */; };
+		10F825602AC5E470002AAE99 /* The_Brazillian_Hot_DogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8255F2AC5E470002AAE99 /* The_Brazillian_Hot_DogTests.swift */; };
+		10F8256A2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F825692AC5E470002AAE99 /* The_Brazillian_Hot_DogUITests.swift */; };
+		10F8256C2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8256B2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F8255C2AC5E470002AAE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F825422AC5E470002AAE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F825492AC5E470002AAE99;
+			remoteInfo = "The Brazillian Hot Dog";
+		};
+		10F825662AC5E470002AAE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F825422AC5E470002AAE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F825492AC5E470002AAE99;
+			remoteInfo = "The Brazillian Hot Dog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F8254A2AC5E470002AAE99 /* The Brazillian Hot Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Brazillian Hot Dog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F8254D2AC5E470002AAE99 /* The_Brazillian_Hot_DogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Brazillian_Hot_DogApp.swift; sourceTree = "<group>"; };
+		10F8254F2AC5E470002AAE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10F825512AC5E470002AAE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F825532AC5E470002AAE99 /* The_Brazillian_Hot_Dog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Brazillian_Hot_Dog.entitlements; sourceTree = "<group>"; };
+		10F825552AC5E470002AAE99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10F8255B2AC5E470002AAE99 /* The Brazillian Hot DogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Brazillian Hot DogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F8255F2AC5E470002AAE99 /* The_Brazillian_Hot_DogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Brazillian_Hot_DogTests.swift; sourceTree = "<group>"; };
+		10F825652AC5E470002AAE99 /* The Brazillian Hot DogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Brazillian Hot DogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F825692AC5E470002AAE99 /* The_Brazillian_Hot_DogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Brazillian_Hot_DogUITests.swift; sourceTree = "<group>"; };
+		10F8256B2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Brazillian_Hot_DogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F825472AC5E470002AAE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825582AC5E470002AAE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825622AC5E470002AAE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F825412AC5E46F002AAE99 = {
+			isa = PBXGroup;
+			children = (
+				10F8254C2AC5E470002AAE99 /* The Brazillian Hot Dog */,
+				10F8255E2AC5E470002AAE99 /* The Brazillian Hot DogTests */,
+				10F825682AC5E470002AAE99 /* The Brazillian Hot DogUITests */,
+				10F8254B2AC5E470002AAE99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F8254B2AC5E470002AAE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F8254A2AC5E470002AAE99 /* The Brazillian Hot Dog.app */,
+				10F8255B2AC5E470002AAE99 /* The Brazillian Hot DogTests.xctest */,
+				10F825652AC5E470002AAE99 /* The Brazillian Hot DogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F8254C2AC5E470002AAE99 /* The Brazillian Hot Dog */ = {
+			isa = PBXGroup;
+			children = (
+				10F8254D2AC5E470002AAE99 /* The_Brazillian_Hot_DogApp.swift */,
+				10F8254F2AC5E470002AAE99 /* ContentView.swift */,
+				10F825512AC5E470002AAE99 /* Assets.xcassets */,
+				10F825532AC5E470002AAE99 /* The_Brazillian_Hot_Dog.entitlements */,
+				10F825542AC5E470002AAE99 /* Preview Content */,
+			);
+			path = "The Brazillian Hot Dog";
+			sourceTree = "<group>";
+		};
+		10F825542AC5E470002AAE99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10F825552AC5E470002AAE99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10F8255E2AC5E470002AAE99 /* The Brazillian Hot DogTests */ = {
+			isa = PBXGroup;
+			children = (
+				10F8255F2AC5E470002AAE99 /* The_Brazillian_Hot_DogTests.swift */,
+			);
+			path = "The Brazillian Hot DogTests";
+			sourceTree = "<group>";
+		};
+		10F825682AC5E470002AAE99 /* The Brazillian Hot DogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10F825692AC5E470002AAE99 /* The_Brazillian_Hot_DogUITests.swift */,
+				10F8256B2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITestsLaunchTests.swift */,
+			);
+			path = "The Brazillian Hot DogUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F825492AC5E470002AAE99 /* The Brazillian Hot Dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F8256F2AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot Dog" */;
+			buildPhases = (
+				10F825462AC5E470002AAE99 /* Sources */,
+				10F825472AC5E470002AAE99 /* Frameworks */,
+				10F825482AC5E470002AAE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Brazillian Hot Dog";
+			productName = "The Brazillian Hot Dog";
+			productReference = 10F8254A2AC5E470002AAE99 /* The Brazillian Hot Dog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10F8255A2AC5E470002AAE99 /* The Brazillian Hot DogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F825722AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot DogTests" */;
+			buildPhases = (
+				10F825572AC5E470002AAE99 /* Sources */,
+				10F825582AC5E470002AAE99 /* Frameworks */,
+				10F825592AC5E470002AAE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F8255D2AC5E470002AAE99 /* PBXTargetDependency */,
+			);
+			name = "The Brazillian Hot DogTests";
+			productName = "The Brazillian Hot DogTests";
+			productReference = 10F8255B2AC5E470002AAE99 /* The Brazillian Hot DogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10F825642AC5E470002AAE99 /* The Brazillian Hot DogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F825752AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot DogUITests" */;
+			buildPhases = (
+				10F825612AC5E470002AAE99 /* Sources */,
+				10F825622AC5E470002AAE99 /* Frameworks */,
+				10F825632AC5E470002AAE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F825672AC5E470002AAE99 /* PBXTargetDependency */,
+			);
+			name = "The Brazillian Hot DogUITests";
+			productName = "The Brazillian Hot DogUITests";
+			productReference = 10F825652AC5E470002AAE99 /* The Brazillian Hot DogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F825422AC5E470002AAE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					10F825492AC5E470002AAE99 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					10F8255A2AC5E470002AAE99 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 10F825492AC5E470002AAE99;
+					};
+					10F825642AC5E470002AAE99 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 10F825492AC5E470002AAE99;
+					};
+				};
+			};
+			buildConfigurationList = 10F825452AC5E470002AAE99 /* Build configuration list for PBXProject "The Brazillian Hot Dog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F825412AC5E46F002AAE99;
+			productRefGroup = 10F8254B2AC5E470002AAE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F825492AC5E470002AAE99 /* The Brazillian Hot Dog */,
+				10F8255A2AC5E470002AAE99 /* The Brazillian Hot DogTests */,
+				10F825642AC5E470002AAE99 /* The Brazillian Hot DogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F825482AC5E470002AAE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F825562AC5E470002AAE99 /* Preview Assets.xcassets in Resources */,
+				10F825522AC5E470002AAE99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825592AC5E470002AAE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825632AC5E470002AAE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F825462AC5E470002AAE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F825502AC5E470002AAE99 /* ContentView.swift in Sources */,
+				10F8254E2AC5E470002AAE99 /* The_Brazillian_Hot_DogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825572AC5E470002AAE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F825602AC5E470002AAE99 /* The_Brazillian_Hot_DogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F825612AC5E470002AAE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F8256A2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITests.swift in Sources */,
+				10F8256C2AC5E470002AAE99 /* The_Brazillian_Hot_DogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F8255D2AC5E470002AAE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F825492AC5E470002AAE99 /* The Brazillian Hot Dog */;
+			targetProxy = 10F8255C2AC5E470002AAE99 /* PBXContainerItemProxy */;
+		};
+		10F825672AC5E470002AAE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F825492AC5E470002AAE99 /* The Brazillian Hot Dog */;
+			targetProxy = 10F825662AC5E470002AAE99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10F8256D2AC5E470002AAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10F8256E2AC5E470002AAE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		10F825702AC5E470002AAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Brazillian Hot Dog/The_Brazillian_Hot_Dog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Brazillian Hot Dog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-Dog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10F825712AC5E470002AAE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Brazillian Hot Dog/The_Brazillian_Hot_Dog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Brazillian Hot Dog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-Dog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10F825732AC5E470002AAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-DogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Brazillian Hot Dog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Brazillian Hot Dog";
+			};
+			name = Debug;
+		};
+		10F825742AC5E470002AAE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-DogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Brazillian Hot Dog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Brazillian Hot Dog";
+			};
+			name = Release;
+		};
+		10F825762AC5E470002AAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-DogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Brazillian Hot Dog";
+			};
+			name = Debug;
+		};
+		10F825772AC5E470002AAE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G86QRLVBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.criticalobjects.The-Brazillian-Hot-DogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Brazillian Hot Dog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F825452AC5E470002AAE99 /* Build configuration list for PBXProject "The Brazillian Hot Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F8256D2AC5E470002AAE99 /* Debug */,
+				10F8256E2AC5E470002AAE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F8256F2AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F825702AC5E470002AAE99 /* Debug */,
+				10F825712AC5E470002AAE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F825722AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot DogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F825732AC5E470002AAE99 /* Debug */,
+				10F825742AC5E470002AAE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F825752AC5E470002AAE99 /* Build configuration list for PBXNativeTarget "The Brazillian Hot DogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F825762AC5E470002AAE99 /* Debug */,
+				10F825772AC5E470002AAE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F825422AC5E470002AAE99 /* Project object */;
+}
